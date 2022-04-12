@@ -1,0 +1,38 @@
+:root {
+    --primary-color: #FBF8F8;
+    --secondary-color: #FBF8F8;
+    --first-color: #FFFFFF;
+    --second-color: #EDC9BA;
+    --third-color: #2D2929;
+    --border-color: #F0A484;
+    --primary-font: 'Poppins', sans-serif;
+    --footer-color: #3d3b3b;
+}
+
+li {
+    list-style-type: none;
+    margin-left: -50px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: var(--second-color);
+    color: var(--third-color);
+}
+
+li a {
+    display: block;
+    width: auto;
+    text-decoration: none;
+    color: var(--first-color);
+    padding: 10px 10px;
+    transition: background-color 0.8s ease-in;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: space-around;
+    margin-top: 60px;
+}
