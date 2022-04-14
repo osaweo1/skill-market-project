@@ -326,6 +326,11 @@ input {
     display: block;
 }
 
+.social ul li a:hover {
+    transform: scale(0.5) translateY(-10px);
+    transition: 0.5s;
+}
+
 .base h6 {
     filter: invert(1);
     position: absolute;

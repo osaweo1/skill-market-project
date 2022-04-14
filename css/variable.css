@@ -18,6 +18,7 @@
 .nav li a:hover {
     background-color: var(--second-color);
     color: var(--third-color);
+    transform: scale(0.8) translateY(-10px);
 }
 
 .nav li a {
@@ -26,7 +27,7 @@
     text-decoration: none;
     color: var(--first-color);
     padding: 10px 10px;
-    transition: background-color 0.8s ease-in;
+    transition: 0.5s;
 }
 
 .nav ul {
