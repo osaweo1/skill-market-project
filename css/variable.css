@@ -9,18 +9,18 @@
     --footer-color: #3d3b3b;
 }
 
-li {
+.nav ul li {
     list-style-type: none;
     margin-left: -50px;
     text-align: center;
 }
 
-li a:hover {
+.nav li a:hover {
     background-color: var(--second-color);
     color: var(--third-color);
 }
 
-li a {
+.nav li a {
     display: block;
     width: auto;
     text-decoration: none;
@@ -29,7 +29,7 @@ li a {
     transition: background-color 0.8s ease-in;
 }
 
-ul {
+.nav ul {
     display: flex;
     flex-direction: column;
     gap: 2px;
